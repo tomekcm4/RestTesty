@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dolarController">
+   <children>
+      <Label layoutX="76.0" layoutY="44.0" text="Kupno:" />
+      <Label layoutX="76.0" layoutY="84.0" text="Sprzedaz" />
+      <Label fx:id="K" layoutX="161.0" layoutY="44.0" text="K" />
+      <Label fx:id="S" layoutX="161.0" layoutY="84.0" text="S" />
+   </children>
+</AnchorPane>
